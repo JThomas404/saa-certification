@@ -151,6 +151,188 @@ This repository documents my journey to achieving the AWS Certified Solutions Ar
 
 ---
 
+## 9. Elastic Load Balancing and Auto Scaling
+
+### Lesson 24: Configured Elastic Load Balancer (ELB) with EC2 Instances
+- **Objective**: Set up an Elastic Load Balancer (ELB) to distribute traffic across multiple EC2 instances.
+- **Key Takeaways**: ELBs ensure high availability and distribute traffic efficiently across instances.
+- **Screenshots**: ![Elastic Load Balancer]()
+
+### Lesson 25: Implemented Auto Scaling for EC2 Instances
+- **Objective**: Set up Auto Scaling to dynamically adjust the number of EC2 instances based on traffic demand.
+- **Key Takeaways**: Auto Scaling allows you to optimize costs and performance by scaling resources automatically.
+- **Screenshots**: ![Auto Scaling]()
+
+---
+
+## 10. Monitoring and Logging
+
+### Lesson 26: Set Up CloudWatch Logs and Alarms for EC2 Instances
+- **Objective**: Use CloudWatch to monitor and set alarms for EC2 instance metrics, such as CPU usage.
+- **Key Takeaways**: CloudWatch provides real-time metrics and allows you to automate response actions.
+- **Screenshots**: ![CloudWatch Logs]()
+
+### Lesson 27: Configured CloudTrail for Auditing API Calls
+- **Objective**: Enable CloudTrail to log all API calls made within the AWS environment.
+- **Key Takeaways**: CloudTrail ensures governance, compliance, and operational auditing by capturing all API activities.
+- **Screenshots**: ![CloudTrail]()
+
+### Lesson 28: Set Up CloudWatch Dashboards for Centralized Monitoring
+- **Objective**: Create CloudWatch dashboards to visualize key metrics from AWS services.
+- **Key Takeaways**: Dashboards enable consolidated views of your AWS resources' performance and health.
+- **Screenshots**: ![CloudWatch Dashboard]()
+
+---
+
+## 11. High Availability and Fault Tolerance
+
+### Lesson 29: Implemented Multi-AZ RDS for High Availability
+- **Objective**: Configure an RDS instance in Multi-AZ deployment for high availability.
+- **Key Takeaways**: Multi-AZ deployments provide automatic failover and increase the reliability of databases.
+- **Screenshots**: ![Multi-AZ RDS]()
+
+### Lesson 30: Set Up Route 53 for DNS Failover
+- **Objective**: Use Route 53 to configure DNS failover for high availability of a web application.
+- **Key Takeaways**: Route 53 DNS failover provides resilience by routing traffic to healthy resources.
+- **Screenshots**: ![Route 53 DNS Failover]()
+
+---
+
+## 12. Security Best Practices
+
+### Lesson 31: Configured AWS Shield for DDoS Protection
+- **Objective**: Set up AWS Shield to protect resources against Distributed Denial of Service (DDoS) attacks.
+- **Key Takeaways**: AWS Shield helps protect applications against malicious traffic and ensures availability.
+- **Screenshots**: ![AWS Shield]()
+
+### Lesson 32: Applied Security Groups and NACLs for Network Security
+- **Objective**: Use Security Groups and Network Access Control Lists (NACLs) to secure EC2 instances and control traffic.
+- **Key Takeaways**: Security Groups and NACLs are essential tools for managing inbound and outbound traffic to AWS resources.
+- **Screenshots**: ![Security Groups and NACLs]()
+
+---
+
+## 13. Cost Management and Optimization
+
+### Lesson 33: Set Up AWS Cost Explorer for Budgeting
+- **Objective**: Use AWS Cost Explorer to track costs and usage and set budgets for different AWS services.
+- **Key Takeaways**: Cost Explorer helps you manage and monitor AWS spending effectively.
+- **Screenshots**: ![AWS Cost Explorer]()
+
+### Lesson 34: Enabled AWS Trusted Advisor for Cost Optimization
+- **Objective**: Use AWS Trusted Advisor to get recommendations on cost optimization and best practices.
+- **Key Takeaways**: Trusted Advisor helps identify opportunities to reduce costs and improve resource efficiency.
+- **Screenshots**: ![AWS Trusted Advisor]()
+
+---
+
+## 14. Serverless and Event-Driven Architectures
+
+### Lesson 35: Created a Lambda Function for Serverless Computing
+- **Objective**: Deploy a Lambda function to execute code in response to events without managing servers.
+- **Key Takeaways**: Lambda is a serverless service that scales automatically and reduces infrastructure overhead.
+- **Screenshots**: ![Lambda Function]()
+
+### Lesson 36: Integrated AWS SQS with Lambda for Asynchronous Processing
+- **Objective**: Use Amazon SQS to send messages and trigger a Lambda function for processing.
+- **Key Takeaways**: SQS and Lambda work together to enable scalable and decoupled event-driven architectures.
+- **Screenshots**: ![SQS and Lambda Integration]()
+
+---
+
+## 15. Continuous Integration and Deployment (CI/CD)
+
+### Lesson 37: Set Up AWS CodePipeline for Automated Deployments
+- **Objective**: Use AWS CodePipeline to automate the build, test, and deploy process for a web application.
+- **Key Takeaways**: CodePipeline streamlines the CI/CD workflow and ensures consistent deployments.
+- **Screenshots**: ![AWS CodePipeline]()
+
+### Lesson 38: Implemented AWS CodeDeploy for EC2 Instance Deployment
+- **Objective**: Use AWS CodeDeploy to automate application deployment to EC2 instances.
+- **Key Takeaways**: CodeDeploy simplifies the deployment process and ensures zero-downtime updates.
+- **Screenshots**: ![AWS CodeDeploy]()
+
+---
+
+## 16. Database Solutions
+
+### Lesson 39: Configured Amazon Aurora for MySQL Database
+- **Objective**: Set up Amazon Aurora as a managed relational database for high performance.
+- **Key Takeaways**: Aurora provides MySQL-compatible database services with better scalability and availability.
+- **Screenshots**: ![Amazon Aurora]()
+
+### Lesson 40: Set Up DynamoDB for NoSQL Database
+- **Objective**: Deploy DynamoDB to store non-relational data and configure it for high throughput.
+- **Key Takeaways**: DynamoDB is ideal for low-latency and high-scalability NoSQL applications.
+- **Screenshots**: ![DynamoDB]()
+
+### Lesson 41: Migrated Data from RDS to DynamoDB
+- **Objective**: Perform a data migration from RDS to DynamoDB for better scalability.
+- **Key Takeaways**: DynamoDB is optimized for fast and scalable data access in distributed applications.
+- **Screenshots**: ![Data Migration to DynamoDB]()
+
+---
+
+## 17. Disaster Recovery and Backup Strategies
+
+### Lesson 42: Implemented Backup Strategy for EC2 Instances Using AMIs
+- **Objective**: Set up a backup strategy using Amazon Machine Images (AMIs) to capture snapshots of EC2 instances.
+- **Key Takeaways**: AMIs provide reliable backups for EC2 instances and enable quick recovery.
+- **Screenshots**: ![EC2 AMI Backup]()
+
+### Lesson 43: Configured AWS Backup for RDS and EFS
+- **Objective**: Set up AWS Backup to automate backups for RDS and EFS resources.
+- **Key Takeaways**: AWS Backup ensures data protection and simplifies recovery processes.
+- **Screenshots**: ![AWS Backup]()
+
+---
+
+## 18. Advanced CloudFormation Techniques
+
+### Lesson 44: Created a CloudFormation Stack to Deploy an EC2 Instance
+- **Objective**: Use CloudFormation to deploy an EC2 instance and its dependencies as a stack.
+- **Key Takeaways**: CloudFormation allows you to automate infrastructure deployment as code.
+- **Screenshots**: ![CloudFormation Stack]()
+
+### Lesson 45: Implemented Nested Stacks in CloudFormation
+- **Objective**: Use nested stacks to manage complex CloudFormation templates in modular components.
+- **Key Takeaways**: Nested stacks make large infrastructures more manageable and reusable.
+- **Screenshots**: ![Nested Stacks]()
+
+---
+
+## 19. Networking and Content Delivery
+
+### Lesson 46: Configured Amazon CloudFront with S3 for Global Distribution
+- **Objective**: Set up CloudFront to deliver content globally with low latency by using S3 as the origin.
+- **Key Takeaways**: CloudFront improves content delivery performance by caching at edge locations.
+- **Screenshots**: ![CloudFront Distribution]()
+
+### Lesson 47: Implemented AWS Direct Connect for Private Connectivity
+- **Objective**: Set up AWS Direct Connect to establish a dedicated network connection from on-premises to AWS.
+- **Key Takeaways**: Direct Connect provides reliable, low-latency, and high-bandwidth connections to AWS.
+- **Screenshots**: ![Direct Connect]()
+
+---
+
+## 20. Security and Identity Services
+
+### Lesson 48: Configured AWS Cognito for User Authentication
+- **Objective**: Set up AWS Cognito to manage user authentication for web and mobile applications.
+- **Key Takeaways**: Cognito simplifies user authentication and integrates with other AWS services.
+- **Screenshots**: ![AWS Cognito]()
+
+### Lesson 49: Implemented AWS WAF to Protect Web Applications
+- **Objective**: Use AWS Web Application Firewall (WAF) to protect web applications from common attacks.
+- **Key Takeaways**: WAF helps protect against SQL injection and other web application vulnerabilities.
+- **Screenshots**: ![AWS WAF]()
+
+### Lesson 50: Configured Identity Federation with AWS IAM and Active Directory
+- **Objective**: Set up identity federation to allow users to authenticate with Active Directory credentials and access AWS resources.
+- **Key Takeaways**: Identity federation simplifies access management and improves security.
+- **Screenshots**: ![Identity Federation]()
+
+
 ## Conclusion
 
 This journey through AWS Solutions Architect exam preparation has been both rewarding and challenging. Each lesson built upon the last, improving my understanding of core AWS services, security practices, and automation techniques. I've not only gained the technical knowledge required for the certification but also developed critical problem-solving skills that will be invaluable in real-world scenarios.
