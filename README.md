@@ -2,6 +2,10 @@
 
 This repository documents my journey through the preparation for the **AWS Certified Solutions Architect - Associate (SAA-C03)** exam. It includes hands-on projects, lessons learned, challenges faced, and any notes relevant to the certification process. This repository is intended for personal reference, and I hope it helps others following the same path as well.
 
+## Exam Preparation
+
+I documented my journey toward the AWS Certified Solutions Architect certification. You can find the full details of my exam preparation, lessons learned, and challenges faced in the following [AWS Solutions Architect Exam Preparation](AWS-Solutions-Architect-Exam-Preparation.md).
+
 ## About This Project
 
 The AWS Solutions Architect - Associate certification validates your ability to design and implement distributed systems on AWS. The goal of this project is to document all the steps, from setting up AWS environments to deploying applications, while learning how AWS works in real-world scenarios.
