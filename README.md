@@ -12,7 +12,7 @@ This repository documents my journey through the preparation for the **AWS Certi
 
 ### A Huge Thank You to Adrian Cantril
 
-A special thank you goes to **Adrian Cantril**. His course and AWS project labs played an **indelible role** in helping me pass the AWS Certified Solutions Architect - Associate exam. Adrian’s content was instrumental in building my understanding of AWS and guiding me through complex topics with hands-on labs. I highly recommend his work to anyone pursuing this certification.
+A special thank you goes to **Adrian Cantril**. His course and AWS project labs played an indelible role in helping me pass the AWS Certified Solutions Architect - Associate exam. Adrian’s content was instrumental in building my understanding of AWS and guiding me through complex topics with hands-on labs. I highly recommend his work to anyone pursuing this certification.
 
 You can find his repository and additional resources here: [Adrian Cantril's GitHub](https://github.com/acantril).
 
@@ -28,13 +28,6 @@ I documented my journey toward the AWS Certified Solutions Architect certificati
 
 The **AWS Solutions Architect - Associate** certification validates your ability to design and implement distributed systems on AWS. The goal of this project is to document all the steps, from setting up AWS environments to deploying applications, while learning how AWS works in real-world scenarios.
 
-This repository contains:
-- Hands-on labs and exercises from the AWS Solutions Architect course.
-- Sample configurations, scripts, and AWS services configurations.
-- Challenges I faced and how I solved them.
-- Insights and best practices that I gathered along the way.
-- Documentation of important AWS services, architectures, and design patterns.
-
 ---
 
 ## Learning Path
@@ -48,15 +41,6 @@ This certification preparation consists of multiple stages. The lessons span acr
 - **Lesson 31-40**: Advanced topics like encryption, CloudWatch monitoring, and scaling services.
 
 Each lesson includes detailed explanations, code samples, and configuration files where applicable. The goal is to provide a comprehensive understanding of AWS services and how they can be combined to build scalable, secure systems.
-
----
-
-## Challenges Faced
-
-While going through the lessons, I encountered a few challenges:
-- **IAM Policy Confusion**: Initially, I had trouble understanding the difference between managed and inline IAM policies. After hands-on practice and reviewing documentation, I gained a clearer understanding of their differences and best practices.
-- **CloudFormation Templates**: Converting manual setups to CloudFormation scripts was challenging due to the verbosity and learning the syntax. With practice, I became more comfortable using CloudFormation for automated infrastructure deployment.
-- **VPC Networking**: Setting up a multi-tier VPC architecture was complex, but it was crucial for understanding how AWS handles networking and security. Troubleshooting issues related to routing, NAT Gateways, and VPC Peering was invaluable in enhancing my overall networking skills.
 
 ---
 
@@ -78,6 +62,6 @@ This certification journey touches on various essential AWS services and technol
 
 ## Final Thoughts
 
-This journey has been incredibly rewarding. I’ve gained valuable insights into AWS services and learned the best practices for designing scalable, secure cloud architectures. I hope this repository serves as a helpful resource for others pursuing the AWS Certified Solutions Architect - Associate certification. Feel free to raise issues, ask questions, or contribute to improving this repository.
+This journey has been incredibly rewarding. I have gained valuable insights into AWS services and learned the best practices for designing scalable, secure cloud architectures. I hope this repository serves as a helpful resource for others pursuing the AWS Certified Solutions Architect - Associate certification. Feel free to raise issues, ask questions, or contribute to improving this repository.
 
 ---
