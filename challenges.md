@@ -35,7 +35,7 @@ My CloudFront distribution failed to deliver content from the S3 origin due to i
 
 ### 2. Troubleshooting and Debugging  
 - Developed strong troubleshooting skills by resolving issues like S3 access errors, CloudFormation failures, and RDS connectivity problems.  
-- Applied these skills in real-world scenarios, such as in my [SQL Maintenance Plan Project](https://github.com/JThomas404/SQL-Maintenance-Plan-Project/blob/main/investigation.md).  
+- Applied these skills in real-world scenarios, such as in my [SQL Maintenance Plan Project](https://github.com/JThomas404/SQL-Maintenance-Plan-Project/blob/main/README.md).  
 - Learned to use AWS tools such as **CloudWatch Logs** and **CloudTrail** for debugging.  
 
 ---
