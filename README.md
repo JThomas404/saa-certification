@@ -7,26 +7,19 @@ This repository documents my journey through the preparation for the **AWS Certi
     <img src="images/aws-certified-solutions-architect-associate.png" alt="AWS SAA Badge" style="width: 25%;" />
 </div>
 
-
 ---
 
 ### A Huge Thank You to Adrian Cantril
 
-A special thank you goes to **Adrian Cantril**. His course and AWS project labs played an indelible role in helping me pass the AWS Certified Solutions Architect - Associate exam. Adrian’s content was instrumental in building my understanding of AWS and guiding me through complex topics with hands-on labs. I highly recommend his work to anyone pursuing this certification.
+A special thank you goes to **Adrian Cantril**. His course and AWS project labs played an indelible role in helping me pass this exam. Adrian’s content was instrumental in building my understanding of AWS and guiding me through complex topics with hands-on labs. I highly recommend his work to anyone pursuing this certification.
 
 You can find his repository and additional resources here: [Adrian Cantril's GitHub](https://github.com/acantril).
 
 ---
 
-## Exam Preparation
-
-I documented my journey toward the AWS Certified Solutions Architect certification. You can find the full details of my exam preparation, lessons learned, and challenges faced in the following [AWS Solutions Architect Exam Preparation](AWS-Solutions-Architect-Exam-Preparation.md).
-
----
-
 ## About This Project
 
-The **AWS Solutions Architect - Associate** certification validates your ability to design and implement distributed systems on AWS. The goal of this project is to document all the steps, from setting up AWS environments to deploying applications, while learning how AWS works in real-world scenarios.
+The **AWS Solutions Architect - Associate** certification validates your ability to design and implement distributed systems on AWS. For a more in-depth look at the specific steps and findings of the project, refer to the **[Project Documentation](project_documentation.md)**, which outlines the entire process and key learnings in detail. Additionally, the **[Challenges](challenges.md)** page provides a summary of the challenges I encountered, along with how I resolved them and the skills I gained through overcoming those obstacles.
 
 ---
 
@@ -34,34 +27,40 @@ The **AWS Solutions Architect - Associate** certification validates your ability
 
 This certification preparation consists of multiple stages. The lessons span across key AWS services and architecture best practices:
 
-- **Lesson 1**: Basics of IAM, multi-factor authentication, and securing AWS accounts.
-- **Lesson 2-10**: Core AWS services such as EC2, S3, CloudFormation, and IAM management.
-- **Lesson 11-20**: Setting up multi-account organizations, VPCs, networking, and high availability.
-- **Lesson 21-30**: Application deployment strategies, working with EC2 instances, RDS, and other AWS resources.
-- **Lesson 31-40**: Advanced topics like encryption, CloudWatch monitoring, and scaling services.
+### **Lesson 1-10: IAM, Security, and Core AWS Services**
+- Setting up IAM accounts, and custom roles for access control.
+- Exploring EC2, S3, CloudFormation, KMS, and implementing IAM permissions.
+
+### **Lesson 11-20: Multi-Account Organizations, Networking, and High Availability**
+- Creating multi-account AWS organizations, implementing service control policies (SCP), and configuring VPC, subnets, and routing.
+- Implementing Cross-Region Replication (CRR), CloudWatch alarms, and securing data with encryption.
+
+### **Lesson 21-30: Application Deployment, Storage, and Automation**
+- Deploying EC2 instances, configuring storage (EBS, S3, and EFS), and automating setups with CloudFormation.
+- Installing WordPress on EC2, containerizing applications with Docker, and deploying with Fargate.
+
+### **Lesson 31-40: Monitoring, Security, Backup, and Scaling**
+- Configuring CloudWatch for monitoring logs and metrics, implementing failover routing, and working with RDS and backup strategies.
+- Scaling applications with CloudFront, load balancers, and ensuring security with encryption and access controls.
+
+### **Lesson 41-50: Advanced Topics and Real-World Applications**
+- Leveraging CloudFront, implementing cross-region solutions, integrating Amazon Macie for data security, and optimizing application deployment strategies.
+- Using Athena for querying real-world data applications.
 
 Each lesson includes detailed explanations, code samples, and configuration files where applicable. The goal is to provide a comprehensive understanding of AWS services and how they can be combined to build scalable, secure systems.
 
 ---
 
-## Key Technologies and AWS Services Covered
+### **Key Technologies and AWS Services Covered**
 
 This certification journey touches on various essential AWS services and technologies:
 
-- **IAM (Identity and Access Management)**: User and role management, policies, MFA (Multi-Factor Authentication).
-- **EC2 (Elastic Compute Cloud)**: Instance provisioning, SSH access, scaling, load balancing.
-- **S3 (Simple Storage Service)**: Object storage, bucket policies, static websites.
-- **VPC (Virtual Private Cloud)**: Networking, subnets, Internet Gateways, NAT Gateways, security groups.
-- **RDS (Relational Database Service)**: Relational databases, backups, migrations, multi-AZ deployments.
-- **CloudFormation**: Infrastructure as code, stack management, automated provisioning.
-- **CloudWatch**: Monitoring, alarms, logging, performance metrics.
-- **EFS (Elastic File System)**: Scalable file storage solutions for web applications and multi-instance environments.
-- **Elastic Load Balancer (ELB)**: Load balancing across EC2 instances for high availability.
-
----
-
-## Final Thoughts
-
-This journey has been incredibly rewarding. I have gained valuable insights into AWS services and learned the best practices for designing scalable, secure cloud architectures. I hope this repository serves as a helpful resource for others pursuing the AWS Certified Solutions Architect - Associate certification. Feel free to raise issues, ask questions, or contribute to improving this repository.
-
----
+- **IAM (Identity and Access Management)** ![IAM](images/IAM%20Identity%20Center.png){: style="width: 20px; height: 20px;" }
+- **EC2 (Elastic Compute Cloud)** ![EC2](images/EC2.png){: style="width: 20px; height: 20px;" }
+- **S3 (Simple Storage Service)** ![S3](images/Simple%20Storage%20Service.png){: style="width: 20px; height: 20px;" }
+- **VPC (Virtual Private Cloud)** ![VPC](images/Virtual%20Private%20Cloud.png){: style="width: 20px; height: 20px;" }
+- **RDS (Relational Database Service)** ![RDS](images/RDS.png){: style="width: 20px; height: 20px;" }
+- **CloudFormation** ![CLOUDFORMATION](images/CloudFormation.png){: style="width: 20px; height: 20px;" }
+- **CloudWatch** ![CLOUDWATCH](images/CloudWatch.png){: style="width: 20px; height: 20px;" }
+- **EFS (Elastic File System)** ![EFS](images/EFS.png){: style="width: 20px; height: 20px;" }
+- **Elastic Load Balancer (ELB)** ![ELB](images/Elastic%20Load%20Balancing.png){: style="width: 20px; height: 20px;" }
