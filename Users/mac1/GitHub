@@ -1,0 +1,21 @@
+provider "aws" {
+  region = "us-east-1" # Change to your preferred region
+}
+
+resource "aws_s3_bucket" "terra_bucket" {
+  bucket = "terra-bucket-name" # Change to your preferred bucket name
+  acl    = "private"
+
+  tags = {
+    Name        = "TerraBucket"
+    Environment = "Dev"
+  }
+}
+resource "aws_instance" "terra_instance" {
+  ami           = "ami-0c55b159cbfafe1f0" # Change to a free tier eligible AMI ID in your region
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "TerraInstance"
+  }
+}
