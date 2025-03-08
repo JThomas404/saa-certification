@@ -51,12 +51,21 @@ This certification preparation consists of multiple stages. The lessons span acr
 
 This certification journey touches on various essential AWS services and technologies:
 
-- **IAM (Identity and Access Management)** ![IAM](images/IAM%20Identity%20Center.png){: style="width: 20px; height: 20px;" }
-- **EC2 (Elastic Compute Cloud)** ![EC2](images/EC2.png){: style="width: 20px; height: 20px;" }
-- **S3 (Simple Storage Service)** ![S3](images/Simple%20Storage%20Service.png){: style="width: 20px; height: 20px;" }
-- **VPC (Virtual Private Cloud)** ![VPC](images/Virtual%20Private%20Cloud.png){: style="width: 20px; height: 20px;" }
-- **RDS (Relational Database Service)** ![RDS](images/RDS.png){: style="width: 20px; height: 20px;" }
-- **CloudFormation** ![CLOUDFORMATION](images/CloudFormation.png){: style="width: 20px; height: 20px;" }
-- **CloudWatch** ![CLOUDWATCH](images/CloudWatch.png){: style="width: 20px; height: 20px;" }
-- **EFS (Elastic File System)** ![EFS](images/EFS.png){: style="width: 20px; height: 20px;" }
-- **Elastic Load Balancer (ELB)** ![ELB](images/Elastic%20Load%20Balancing.png){: style="width: 20px; height: 20px;" }
+- **IAM (Identity and Access Management)**  
+  <img src="images/IAM%20Identity%20Center.png" alt="IAM" width="60" height="60" />
+- **EC2 (Elastic Compute Cloud)**  
+  <img src="images/EC2.png" alt="EC2" width="60" height="60" />
+- **S3 (Simple Storage Service)**  
+  <img src="images/Simple%20Storage%20Service.png" alt="S3" width="60" height="60" />
+- **VPC (Virtual Private Cloud)**  
+  <img src="images/Virtual%20Private%20Cloud.png" alt="VPC" width="60" height="60" />
+- **RDS (Relational Database Service)**  
+  <img src="images/RDS.png" alt="RDS" width="60" height="60" />
+- **CloudFormation**  
+  <img src="images/CloudFormation.png" alt="CloudFormation" width="60" height="60" />
+- **CloudWatch**  
+  <img src="images/CloudWatch.png" alt="CloudWatch" width="60" height="60" />
+- **EFS (Elastic File System)**  
+  <img src="images/EFS.png" alt="EFS" width="60" height="60" />
+- **Elastic Load Balancer (ELB)**  
+  <img src="images/Elastic%20Load%20Balancing.png" alt="ELB" width="60" height="60" />
