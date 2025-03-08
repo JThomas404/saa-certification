@@ -48,24 +48,31 @@ This certification preparation consists of multiple stages. The lessons span acr
 - Using Athena for querying real-world data applications.
 
 ### **Key Technologies and AWS Services Covered**
-
 This certification journey touches on various essential AWS services and technologies:
 
-- **IAM (Identity and Access Management)**  
-  <img src="images/IAM%20Identity%20Center.png" alt="IAM" width="20" height="20" />
-- **EC2 (Elastic Compute Cloud)**  
-  <img src="images/EC2.png" alt="EC2" width="20" height="20" />
-- **S3 (Simple Storage Service)**  
-  <img src="images/Simple%20Storage%20Service.png" alt="S3" width="20" height="20" />
-- **VPC (Virtual Private Cloud)**  
-  <img src="images/Virtual%20Private%20Cloud.png" alt="VPC" width="20" height="20" />
-- **RDS (Relational Database Service)**  
-  <img src="images/RDS.png" alt="RDS" width="20" height="20" />
-- **CloudFormation**  
-  <img src="images/CloudFormation.png" alt="CloudFormation" width="20" height="20" />
-- **CloudWatch**  
-  <img src="images/CloudWatch.png" alt="CloudWatch" width="20" height="20" />
-- **EFS (Elastic File System)**  
-  <img src="images/EFS.png" alt="EFS" width="20" height="20" />
-- **Elastic Load Balancer (ELB)**  
-  <img src="images/Elastic%20Load%20Balancing.png" alt="ELB" width="20" height="20" />
+IAM (Identity and Access Management)
+<img src="images/IAM%20Identity%20Center.png" alt="IAM" width="60" height="60" />
+
+EC2 (Elastic Compute Cloud)
+<img src="images/EC2.png" alt="EC2" width="60" height="60" />
+
+S3 (Simple Storage Service)
+<img src="images/Simple%20Storage%20Service.png" alt="S3" width="60" height="60" />
+
+VPC (Virtual Private Cloud)
+<img src="images/Virtual%20Private%20Cloud.png" alt="VPC" width="60" height="60" />
+
+RDS (Relational Database Service)
+<img src="images/RDS.png" alt="RDS" width="60" height="60" />
+
+CloudFormation
+<img src="images/CloudFormation.png" alt="CloudFormation" width="60" height="60" />
+
+CloudWatch
+<img src="images/CloudWatch.png" alt="CloudWatch" width="60" height="60" />
+
+EFS (Elastic File System)
+<img src="images/EFS.png" alt="EFS" width="60" height="60" />
+
+Elastic Load Balancer (ELB)
+<img src="images/Elastic%20Load%20Balancing.png" alt="ELB" width="60" height="60" />
