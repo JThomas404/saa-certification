@@ -351,4 +351,4 @@ This repository documents my journey through the AWS Solutions Architect - Assoc
 - Combined all lessons to design and implement a scalable, secure, and cost-effective architecture for Animals4Life.
 ---
 
-For a detailed breakdown of challenges, skills learned, and my conclusion, check out the [challenges](challenges.md) page.
+For a detailed breakdown of challenges, skills learned, and my conclusion, check out the [Challenges](challenges.md) page.
