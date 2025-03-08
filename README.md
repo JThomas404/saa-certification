@@ -97,6 +97,9 @@ This certification journey touches on various essential AWS services and technol
       <strong>Elastic Load Balancer (ELB)</strong><br>
       <img src="images/Elastic%20Load%20Balancing.png" alt="ELB" width="60" height="60" />
     </td>
-    <td></td>
+    <td>
+      <strong>Route 53</strong><br>
+      <img src="images/Route%2053.png" alt="Route 53" width="60" height="60" />
+    </td>
   </tr>
 </table>
