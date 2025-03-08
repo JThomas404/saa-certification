@@ -221,8 +221,6 @@ This repository documents my journey through the AWS Solutions Architect - Assoc
 ### **Lesson 29: Enhanced EC2 Bootstrapping with CFN-INIT and CFN-SIGNAL**
 - Used CFN-INIT and CFN-SIGNAL to improve EC2 bootstrapping.
 
-![CFN-INIT and CFN-SIGNAL](images/placeholder_cfn_init_signal.png)
-
 ---
 
 ### **Lesson 30: Created an EC2 Instance Role**
@@ -295,8 +293,6 @@ This repository documents my journey through the AWS Solutions Architect - Assoc
 ### **Lesson 40: Implemented CloudFront with S3 Origin**
 - Created a CloudFront distribution using an S3 bucket as the origin.
 
-![CloudFront S3 Origin](images/Invalidated%20an%20S3%20object%20CloudFront%20.png)
-
 ---
 
 ### **Lesson 41: Added Alternate Domain Name and HTTPS to CloudFront**
@@ -316,8 +312,6 @@ This repository documents my journey through the AWS Solutions Architect - Assoc
 
 ### **Lesson 44: Implemented a Gateway Endpoint for S3**
 - Created a gateway endpoint to allow private VPC access to S3.
-
-![Gateway Endpoint](images/implemented%20a%20Gateway%20endpoint%20to%20allow%20access%20to%20the%20S3%20service%20from%20the%20private%20A4L%20VPC.png)
 
 ---
 
