@@ -50,7 +50,7 @@ This certification preparation consists of multiple stages. The lessons span acr
 - Setting up IAM accounts, and custom roles for access control.
 - Exploring EC2, S3, CloudFormation, KMS, and implementing IAM permissions.
 
-### **Lesson 11-20: Multi-Account Organizations, Networking, and High Availability**
+### **Lesson 11-20: Multi-Account Organisations, Networking, and High Availability**
 
 - Creating multi-account AWS organisations, implementing service control policies (SCP), and configuring VPC, subnets, and routing.
 - Implementing Cross-Region Replication (CRR), CloudWatch alarms, and securing data with encryption.

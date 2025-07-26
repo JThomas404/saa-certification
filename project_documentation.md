@@ -625,14 +625,14 @@ aws cloudwatch put-metric-data --namespace "Animals4Life/WordPress" \
 **Infrastructure Monitoring**:
 
 - CloudWatch alarms for CPU, memory, and disk utilisation
-- RDS performance insights for database optimization
+- RDS performance insights for database optimisation
 - ALB access logs for traffic analysis
 - Custom dashboards for business metrics
 
 **Alerting Strategy**:
 
 - Critical alerts: Database failover, application errors (PagerDuty integration)
-- Warning alerts: High CPU utilization, disk space (Email notifications)
+- Warning alerts: High CPU utilisation, disk space (Email notifications)
 - Info alerts: Scaling events, backup completion (Slack integration)
 
 ### Disaster Recovery Plan
@@ -651,7 +651,7 @@ aws cloudwatch put-metric-data --namespace "Animals4Life/WordPress" \
 - **Multi-Region**: Standby environment in us-west-2
 - **Runbook**: Documented procedures for common failure scenarios
 
-### Cost Optimization for Production
+### Cost Optimisation for Production
 
 **Reserved Instances**:
 
